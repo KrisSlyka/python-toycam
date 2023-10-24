@@ -1,0 +1,12 @@
+[project]
+name = "python-toycam"
+version = "0.0.1"
+dependencies = [
+"pillow ~= 10.0.0",
+"pyusb ~= 1.2.0",
+"av ~= 10.0.0",
+"numpy ~= 1.26.0"
+]
+
+[project.scripts]
+toycam = "python_toycam:main"
